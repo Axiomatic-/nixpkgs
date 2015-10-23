@@ -12318,6 +12318,8 @@ let
 
   oroborus = callPackage ../applications/window-managers/oroborus {};
 
+  palemoon-bin = callPackage ../applications/networking/browsers/palemoon-bin { };
+
   panamax_api = callPackage ../applications/networking/cluster/panamax/api {
     ruby = ruby_2_1;
   };
