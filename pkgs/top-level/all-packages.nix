@@ -11623,6 +11623,8 @@ let
     boost = boost155;
   };
 
+  fresh_player_plugin = callPackage ../applications/networking/browsers/mozilla-plugins/fresh-player-plugin {};
+
   fuze = callPackage ../applications/networking/instant-messengers/fuze {};
 
   game-music-emu = callPackage ../applications/audio/game-music-emu { };
