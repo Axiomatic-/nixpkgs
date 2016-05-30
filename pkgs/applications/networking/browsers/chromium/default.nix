@@ -85,6 +85,7 @@ in stdenv.mkDerivation {
 
   passthru = {
     inherit (chromium) upstream-info;
+    inherit (chromium) plugins;
     mkDerivation = chromium.mkChromiumDerivation;
   };
 }

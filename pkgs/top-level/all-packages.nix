@@ -15084,6 +15084,10 @@ in
 
   freeorion = callPackage ../games/freeorion { };
 
+  freshplayerplugin = callPackage ../applications/networking/browsers/mozilla-plugins/freshplayerplugin {
+    libva = libva-full; # requires also libva-x11.
+  };
+
   fsg = callPackage ../games/fsg {
     wxGTK = wxGTK28.override { unicode = false; };
   };
